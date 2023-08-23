@@ -40,14 +40,14 @@ body {
   line-height: 1.7;
 }
 
-article {
+main {
   min-height: 100%;
   display: flex;
   flex-direction: column;
   align-items: stretch;
 }
 
-main {
+article {
   flex-grow: 1;
   display: flex;
   flex-wrap: wrap;
@@ -56,7 +56,7 @@ main {
 }
 
 header,
-main,
+article,
 footer {
   flex-shrink: 0;
   text-align: center;
@@ -94,7 +94,7 @@ header > p {
   color: var(--grayishBlue);
 }
 
-main {
+article {
   margin: auto 32px;
 }
 
@@ -175,7 +175,7 @@ footer {
   .second_header {
     font-size: 2em;
   }
-  main {
+  article {
     flex-grow: 0;
     margin-top: 0;
   }
