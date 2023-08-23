@@ -47,7 +47,7 @@ main {
   align-items: stretch;
 }
 
-article {
+.main__part {
   flex-grow: 1;
   display: flex;
   flex-wrap: wrap;
@@ -56,7 +56,7 @@ article {
 }
 
 header,
-article,
+.main__part,
 footer {
   flex-shrink: 0;
   text-align: center;
@@ -94,7 +94,7 @@ header > p {
   color: var(--grayishBlue);
 }
 
-article {
+.main__part {
   margin: auto 32px;
 }
 
@@ -175,7 +175,7 @@ footer {
   .second_header {
     font-size: 2em;
   }
-  article {
+  .main__part {
     flex-grow: 0;
     margin-top: 0;
   }
